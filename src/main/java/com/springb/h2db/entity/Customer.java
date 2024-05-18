@@ -19,7 +19,7 @@ import lombok.ToString;
 @Entity
 @Table(name="tbl_customer")
 @Setter
-@Getter
+@Getter	/*Used Lombok library Annotations for clean code and simplicity and also the setter and getter methods were causing unusual behaviour at the server end*/
 @ToString
 public class Customer {
 	
